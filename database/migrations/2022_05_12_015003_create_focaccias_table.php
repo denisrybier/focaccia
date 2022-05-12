@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('focaccias', function (Blueprint $table) {
             $table->id();
+            $table->string('Nombre');
+            $table->float('Precio');
+            $table->string('Descripcion');
+            $table->string('Foto');
             $table->timestamps();
         });
     }
