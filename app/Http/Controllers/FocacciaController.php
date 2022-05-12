@@ -14,7 +14,7 @@ class FocacciaController extends Controller
      */
     public function index()
     {
-        //
+        return view('focaccia.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class FocacciaController extends Controller
      */
     public function create()
     {
-        //
+        return view('focaccia.create');
     }
 
     /**
@@ -57,7 +57,7 @@ class FocacciaController extends Controller
      */
     public function edit(Focaccia $focaccia)
     {
-        //
+        return view('focaccia.edit');
     }
 
     /**
